@@ -506,7 +506,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181100087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92, y: -21.94, z: 0}
+  m_LocalPosition: {x: -3, y: 3.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2144085620}
@@ -1446,7 +1446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 174999381}
   endGameText: {fileID: 0}
-  movement: {fileID: 0}
+  movement: {fileID: 181100092}
+  controller2D: {fileID: 181100094}
 --- !u!61 &670613811
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2139,7 +2140,7 @@ Transform:
   m_GameObject: {fileID: 941656970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 93.26, y: -27.134993, z: 1.1215366}
-  m_LocalScale: {x: 4, y: 3, z: 1}
+  m_LocalScale: {x: 4.5, y: 3.5, z: 1}
   m_Children: []
   m_Father: {fileID: 257642463}
   m_RootOrder: 13
